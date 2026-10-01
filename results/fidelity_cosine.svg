@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="396pt" height="230.4pt" viewBox="0 0 396 230.4" version="1.1">
+<style type="text/css">.s0{stroke:#000000;stroke-width:0.8}.s1{font-size:8px;font-family:sans-serif}.s2{fill:none;stroke:#b0b0b0;stroke-opacity:0.3;stroke-width:0.8;stroke-linecap:square}.s3{font-size:10px;font-family:sans-serif;text-anchor:end}.s4{fill:none;stroke:#000000;stroke-width:0.8;stroke-linejoin:miter;stroke-linecap:square}.s5{fill:#ffffff}</style>
+<defs>
+<style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+</defs>
+<path d="M 0 230.4 L 396 230.4 L 396 0 L 0 0 z" class="s5"/>
+<path d="M 48 193 L 385.2 193 L 385.2 26.2 L 48 26.2 z" class="s5"/>
+<path d="M 63.3 193 L 134 193 L 134 122.1 L 63.3 122.1 z" style="fill: #2a9d8f"/>
+<path d="M 181.2 193 L 252 193 L 252 131.7 L 181.2 131.7 z" style="fill: #e76f51"/>
+<path d="M 299.1 193 L 369.9 193 L 369.9 199.5 L 299.1 199.5 z" style="fill: #e9c46a"/>
+<defs>
+<path id="m43e3c4f0ca" d="M 0 0 L 0 3.5" class="s0"/>
+</defs>
+<use xlink:href="#m43e3c4f0ca" x="98.7" y="193" class="s0"/>
+<text transform="translate(89.7 206.9)" class="s1">GQA</text>
+<text transform="translate(70 216.5)" class="s1">(collapsed KV)</text>
+<use xlink:href="#m43e3c4f0ca" x="216.6" y="193" class="s0"/>
+<text transform="translate(207.2 206.9)" class="s1">MQA</text>
+<text transform="translate(187.9 216.5)" class="s1">(collapsed KV)</text>
+<use xlink:href="#m43e3c4f0ca" x="334.5" y="193" class="s0"/>
+<text transform="translate(325.5 206.9)" class="s1">GQA</text>
+<text transform="translate(309.2 216.5)" class="s1">(random KV)</text>
+<path d="M 48 193 L 385.2 193" class="s2"/>
+<defs>
+<path id="m6977b7d46f" d="M 0 0 L -3.5 0" class="s0"/>
+</defs>
+<use xlink:href="#m6977b7d46f" x="48" y="193" class="s0"/>
+<text x="41" y="196.8" class="s3">0.0</text>
+<path d="M 48 161.2 L 385.2 161.2" class="s2"/>
+<use xlink:href="#m6977b7d46f" x="48" y="161.2" class="s0"/>
+<text x="41" y="165" class="s3">0.2</text>
+<path d="M 48 129.4 L 385.2 129.4" class="s2"/>
+<use xlink:href="#m6977b7d46f" x="48" y="129.4" class="s0"/>
+<text x="41" y="133.2" class="s3">0.4</text>
+<path d="M 48 97.7 L 385.2 97.7" class="s2"/>
+<use xlink:href="#m6977b7d46f" x="48" y="97.7" class="s0"/>
+<text x="41" y="101.5" class="s3">0.6</text>
+<path d="M 48 65.9 L 385.2 65.9" class="s2"/>
+<use xlink:href="#m6977b7d46f" x="48" y="65.9" class="s0"/>
+<text x="41" y="69.7" class="s3">0.8</text>
+<path d="M 48 34.1 L 385.2 34.1" class="s2"/>
+<use xlink:href="#m6977b7d46f" x="48" y="34.1" class="s0"/>
+<text x="41" y="37.9" class="s3">1.0</text>
+<text style="font-size: 10px; font-family: sans-serif; text-anchor: middle" x="18.7" y="109.6" transform="rotate(-90 18.7 109.6)">mean cosine vs MHA output</text>
+<path d="M 48 193 L 48 26.2" class="s4"/>
+<path d="M 385.2 193 L 385.2 26.2" class="s4"/>
+<path d="M 48 193 L 385.2 193" class="s4"/>
+<path d="M 48 26.2 L 385.2 26.2" class="s4"/>
+<text style="font-size: 12px; font-family: sans-serif; text-anchor: middle" x="216.6" y="20.2">Attention output fidelity vs full MHA (random weights)</text>
+</svg>
