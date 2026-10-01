@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""GQA/MQA smoke: KV savings, fidelity, matching task → results/."""
+"""GQA/MQA smoke: KV savings, fidelity, matching task -> results/."""
 from __future__ import annotations
 
 import json
@@ -113,6 +113,7 @@ def main() -> None:
         "all_above_chance": trained["all_above_chance"],
     }
 
+    # Slim trained modes for metrics.json (keep history + summary, drop long attn_row? keep it)
     trained_json = {
         "modes": [
             {
@@ -176,8 +177,8 @@ def main() -> None:
     print(f"seed={SEED} wall_time_s={wall}")
     print(f"expand_pass={headline['expand_pass']}")
     print(
-        f"KV reduction vs MHA: GQA={headline['gqa_reduction_vs_mha']}× "
-        f"MQA={headline['mqa_reduction_vs_mha']}×"
+        f"KV reduction vs MHA: GQA={headline['gqa_reduction_vs_mha']}x "
+        f"MQA={headline['mqa_reduction_vs_mha']}x"
     )
     print(
         f"cosine fidelity: GQA={headline['cosine_gqa']} MQA={headline['cosine_mqa']}"
