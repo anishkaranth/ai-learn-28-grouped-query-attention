@@ -1,0 +1,7 @@
+{
+ "project": "ai-learn-28-grouped-query-attention",
+ "seed": 42,
+ "config": {"d_model": 64, "n_q_heads": 8, "n_kv_gqa": 2, "seq_len": 16, "steps": 220, "logit_scale": 12.0},
+ "headline": {"expand_pass": true, "gqa_reduction_vs_mha": 4.0, "mqa_reduction_vs_mha": 8.0, "kv_ratio_checks_pass": true, "cosine_gqa": 0.446464, "cosine_mqa": 0.385785, "gqa_closer_than_mqa": true, "mha_acc": 1.0, "gqa_acc": 0.98125, "mqa_acc": 0.95, "gqa_near_mha": true, "gqa_beats_mqa": true, "all_above_chance": true},
+ "wall_time_s": 1.14
+}
